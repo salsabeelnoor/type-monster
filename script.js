@@ -109,7 +109,7 @@ const start = () => {
 
   const startCountdown = setInterval(() => {
     countdownOverlay.innerHTML = `<h1>${count}</h1>`;
-
+    // let count = 3;
     // finished timer
     if (count == 0) {
       // -------------- START TYPING -----------------
